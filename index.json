@@ -1,8 +1,11 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-11T01:39:41Z",
+  "generated_at": "2026-11-11T21:52:20Z",
   "source_repo": "y1-community/q5-stock-rom",
+  "source_fallback_repo": "ryan-specter/q5-stock-rom",
   "mirror_repo": "y1-community/q5-stock-rom-mirror",
+  "mirror_fallback_repo": "ryan-specter/q5-stock-rom-mirror",
+  "fallback_index_url": "https://raw.githubusercontent.com/ryan-specter/q5-stock-rom-mirror/main/index.json",
   "title_prefix": "Portable Flashing Package: ",
   "updater_repo": "y1-community/updater-ce-neo",
   "platforms": [
@@ -47,6 +50,14 @@
       "legacy": false
     },
     {
+      "key": "linux-legacy",
+      "os": "linux",
+      "arch": "x86",
+      "suffix": "-linux-legacy.zip",
+      "layout": "sp_flash_tool",
+      "legacy": true
+    },
+    {
       "key": "macos",
       "os": "macos",
       "arch": "universal",
@@ -61,6 +72,7 @@
       "title": "Portable Flashing Package: MX2D_Q5D-WV3.28-20250619",
       "source_title": "MX2D_Q5D-WV3.28-20250619",
       "source_url": "https://github.com/y1-community/q5-stock-rom/releases/tag/MX2D_Q5D-WV3.28-20250619",
+      "source_fallback_url": "https://github.com/ryan-specter/q5-stock-rom/releases/tag/MX2D_Q5D-WV3.28-20250619",
       "published_at": "2026-11-05T06:34:49Z",
       "prerelease": false,
       "source_notes": "Original Timmkoo Q5 software **MX2D_Q5D-WV3.28-20250619**.\n\n- Model: **Q5** (Timmkoo)\n- Package: `rom_q5.zip`\n- Build tag: `MX2D_Q5D-WV3.28-20250619`\n- Build date: 2025-06-19\n\n## Install\n\n1. Download `rom_q5.zip` (every numbered volume if the release has more than one, then `cat rom_q5.zip.* > rom_q5.zip`).\n2. Unzip it. Keep the scatter file next to the images.\n3. Open SP Flash Tool, choose **Download Only**, load the scatter file from the archive and flash.\n4. Or use Innioasis Updater CE: <https://innioasis.app/guide.html>\n\nThis wipes the player. Back up music and recordings first.\n\n## Files\n\n| File | Size |\n| --- | --- |\n| `rom_q5.zip` | 322.1 MB |\n| `SHA256SUMS` | 0.0 MB |\n\nFull archive: <https://innioasis.app/firmware.html?model=Q5>",
@@ -72,8 +84,20 @@
           "model": "Q5",
           "type": "Stock",
           "size": 577476733,
-          "sha256": "ad98fcfa45366595ba78aa422ccef9b442819dfacd68ad870444fc7e4a677f9b",
-          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-windows.zip"
+          "sha256": "3fec14b2b137e15c445a333930f770c422cff8b25a1d3598f5bd884239cff659",
+          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-windows.zip",
+          "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-windows.zip"
+        },
+        {
+          "name": "rom_q5-windows-legacy.zip",
+          "source_asset": "rom_q5.zip",
+          "platform": "windows-legacy",
+          "model": "Q5",
+          "type": "Stock",
+          "size": 416326288,
+          "sha256": "7b50f7cb38fabd0f7999bdc3e6fdbf3731634c9f3b9e7f525e9b323dbc505a22",
+          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-windows-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-windows-legacy.zip"
         },
         {
           "name": "rom_q5-linux.zip",
@@ -82,8 +106,9 @@
           "model": "Q5",
           "type": "Stock",
           "size": 701348249,
-          "sha256": "708dce16368a0937270ec0490b58f92fd35936944115cc2bc7dc865ccc4f74f4",
-          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-linux.zip"
+          "sha256": "4c5f5c43b6e5eecb38e5b0651356fefd51f76c783c629d603f04685cd4d69d09",
+          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-linux.zip",
+          "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-linux.zip"
         },
         {
           "name": "rom_q5-linux-arm64.zip",
@@ -92,8 +117,20 @@
           "model": "Q5",
           "type": "Stock",
           "size": 526253191,
-          "sha256": "e93b5e94fc9217ed1797213ceed5dbb6f76267c89387af486d418fee1b1bcc03",
-          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-linux-arm64.zip"
+          "sha256": "ae72a8453c2bfabc3c80aa2a155398296bb382e9b0954b1cec652f2f2f41334f",
+          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-linux-arm64.zip",
+          "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-linux-arm64.zip"
+        },
+        {
+          "name": "rom_q5-linux-legacy.zip",
+          "source_asset": "rom_q5.zip",
+          "platform": "linux-legacy",
+          "model": "Q5",
+          "type": "Stock",
+          "size": 414740573,
+          "sha256": "3f09acd3a1cc85c33123ce609d306eaf77484fde019eaf134e3223c6eee29950",
+          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-linux-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-linux-legacy.zip"
         },
         {
           "name": "rom_q5-macos.zip",
@@ -102,8 +139,9 @@
           "model": "Q5",
           "type": "Stock",
           "size": 461199052,
-          "sha256": "8d46fcd2fff0f112e4b3f7bf1165bc5e6384da56f9dd1e8fc865907b7bedeb70",
-          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-macos.zip"
+          "sha256": "336b861751164d42d6ccab2ba152d8d6a44959d2338ff79f921b74cd2b4274bf",
+          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-macos.zip",
+          "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-macos.zip"
         }
       ],
       "original_assets": [
@@ -117,6 +155,7 @@
       "title": "Portable Flashing Package: MX2-WVGA_TM-WV3.27-20250528",
       "source_title": "MX2-WVGA_TM-WV3.27-20250528",
       "source_url": "https://github.com/y1-community/q5-stock-rom/releases/tag/MX2-WVGA_TM-WV3.27-20250528",
+      "source_fallback_url": "https://github.com/ryan-specter/q5-stock-rom/releases/tag/MX2-WVGA_TM-WV3.27-20250528",
       "published_at": "2026-11-05T06:34:10Z",
       "prerelease": false,
       "source_notes": "Original Timmkoo Q5 software **MX2-WVGA_TM-WV3.27-20250528**.\n\n- Model: **Q5** (Timmkoo)\n- Package: `rom_q5.zip`\n- Build tag: `MX2-WVGA_TM-WV3.27-20250528`\n- Build date: 2025-05-28\n\n## Install\n\n1. Download `rom_q5.zip` (every numbered volume if the release has more than one, then `cat rom_q5.zip.* > rom_q5.zip`).\n2. Unzip it. Keep the scatter file next to the images.\n3. Open SP Flash Tool, choose **Download Only**, load the scatter file from the archive and flash.\n4. Or use Innioasis Updater CE: <https://innioasis.app/guide.html>\n\nThis wipes the player. Back up music and recordings first.\n\n## Files\n\n| File | Size |\n| --- | --- |\n| `rom_q5.zip` | 328.2 MB |\n| `SHA256SUMS` | 0.0 MB |\n\nFull archive: <https://innioasis.app/firmware.html?model=Q5>",
@@ -128,8 +167,20 @@
           "model": "Q5",
           "type": "Stock",
           "size": 583777807,
-          "sha256": "9c028e312b4842aabb6c9db9f845ef8ac55e214a3ad7075da3ae23bef219ead7",
-          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-windows.zip"
+          "sha256": "33f2598cea2607d8b80f91be9998e62b257b2e361935604bfcbefa743cc74e3f",
+          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-windows.zip",
+          "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-windows.zip"
+        },
+        {
+          "name": "rom_q5-windows-legacy.zip",
+          "source_asset": "rom_q5.zip",
+          "platform": "windows-legacy",
+          "model": "Q5",
+          "type": "Stock",
+          "size": 422627362,
+          "sha256": "874ccf643045355d6b0f3eb72439b1b5e8eacff061e9457236354929d86a84b2",
+          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-windows-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-windows-legacy.zip"
         },
         {
           "name": "rom_q5-linux.zip",
@@ -138,8 +189,9 @@
           "model": "Q5",
           "type": "Stock",
           "size": 707649323,
-          "sha256": "93f123506ddb97395887dd4f1b57e6d09c027434e2044e2246637fcce7c99db4",
-          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-linux.zip"
+          "sha256": "1e692ac0bb762849222a8812e7014c5f0115f58aaa8f2976ff7d59a41c250ce4",
+          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-linux.zip",
+          "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-linux.zip"
         },
         {
           "name": "rom_q5-linux-arm64.zip",
@@ -148,8 +200,20 @@
           "model": "Q5",
           "type": "Stock",
           "size": 532554265,
-          "sha256": "83320712fce73f91bb1755612080a7bb651e9f1440b1c6e1f2a1654d3f39366d",
-          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-linux-arm64.zip"
+          "sha256": "ff8fedcb2ba78a7045a1cb5c950e946be867d3de80a51a170b4d2efaa102d626",
+          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-linux-arm64.zip",
+          "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-linux-arm64.zip"
+        },
+        {
+          "name": "rom_q5-linux-legacy.zip",
+          "source_asset": "rom_q5.zip",
+          "platform": "linux-legacy",
+          "model": "Q5",
+          "type": "Stock",
+          "size": 421041647,
+          "sha256": "0bf74e405581af2fce463b6b84d6bb50c2b01d115f26079e79fcdce4cd45ca95",
+          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-linux-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-linux-legacy.zip"
         },
         {
           "name": "rom_q5-macos.zip",
@@ -158,8 +222,9 @@
           "model": "Q5",
           "type": "Stock",
           "size": 467500125,
-          "sha256": "993df56853212998b24658fb6972eb241281535de5ae37912fc960a240c272c2",
-          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-macos.zip"
+          "sha256": "b480123b5d186a83bac68f26edcc370200021b646ed2f7afa9ba6b19cf57d6da",
+          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-macos.zip",
+          "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-macos.zip"
         }
       ],
       "original_assets": [
@@ -173,6 +238,7 @@
       "title": "Portable Flashing Package: MX2-ES_Q5-WV5.02-20250619",
       "source_title": "MX2-ES_Q5-WV5.02-20250619",
       "source_url": "https://github.com/y1-community/q5-stock-rom/releases/tag/MX2-ES_Q5-WV5.02-20250619",
+      "source_fallback_url": "https://github.com/ryan-specter/q5-stock-rom/releases/tag/MX2-ES_Q5-WV5.02-20250619",
       "published_at": "2026-11-05T06:33:32Z",
       "prerelease": false,
       "source_notes": "Original Timmkoo Q5 software **MX2-ES_Q5-WV5.02-20250619**.\n\n- Model: **Q5** (Timmkoo)\n- Package: `rom_q5.zip`\n- Build tag: `MX2-ES_Q5-WV5.02-20250619`\n- Build date: 2025-06-19\n\n## Install\n\n1. Download `rom_q5.zip` (every numbered volume if the release has more than one, then `cat rom_q5.zip.* > rom_q5.zip`).\n2. Unzip it. Keep the scatter file next to the images.\n3. Open SP Flash Tool, choose **Download Only**, load the scatter file from the archive and flash.\n4. Or use Innioasis Updater CE: <https://innioasis.app/guide.html>\n\nThis wipes the player. Back up music and recordings first.\n\n## Files\n\n| File | Size |\n| --- | --- |\n| `rom_q5.zip` | 328.1 MB |\n| `SHA256SUMS` | 0.0 MB |\n\nFull archive: <https://innioasis.app/firmware.html?model=Q5>",
@@ -184,8 +250,20 @@
           "model": "Q5",
           "type": "Stock",
           "size": 583748428,
-          "sha256": "733c78b0d6050e1f8a0d5a15bcc812e3c624ae0927177f5f6670db5669ebbfdb",
-          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-windows.zip"
+          "sha256": "b6f3d0b186713fec04f52f71fc27f1d094b5b031eaba8467aabfc957cf2f9bb7",
+          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-windows.zip",
+          "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-windows.zip"
+        },
+        {
+          "name": "rom_q5-windows-legacy.zip",
+          "source_asset": "rom_q5.zip",
+          "platform": "windows-legacy",
+          "model": "Q5",
+          "type": "Stock",
+          "size": 422597981,
+          "sha256": "83abe723219d62ba6c0c1a06cb27de903c75114f11b19297ceed70ce8f3479c4",
+          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-windows-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-windows-legacy.zip"
         },
         {
           "name": "rom_q5-linux.zip",
@@ -194,8 +272,9 @@
           "model": "Q5",
           "type": "Stock",
           "size": 707619944,
-          "sha256": "54c57c3cbdb6c4c949f994014f62e5cca18a8aba6fc270c81d00c043b0edc828",
-          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-linux.zip"
+          "sha256": "06e8f5ede3a7cf94b39c82c45ecec0e0476cb20809a8245fdd166687c7ba9364",
+          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-linux.zip",
+          "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-linux.zip"
         },
         {
           "name": "rom_q5-linux-arm64.zip",
@@ -204,8 +283,20 @@
           "model": "Q5",
           "type": "Stock",
           "size": 532524886,
-          "sha256": "2dc1261df50abffe976ccb9d3ff5731eb702098b83fa58e35ff1845b7b8d24eb",
-          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-linux-arm64.zip"
+          "sha256": "5ad4357e42faf75b76c10388704108396f2f61bd076d9a59aec94a13e66bfd97",
+          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-linux-arm64.zip",
+          "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-linux-arm64.zip"
+        },
+        {
+          "name": "rom_q5-linux-legacy.zip",
+          "source_asset": "rom_q5.zip",
+          "platform": "linux-legacy",
+          "model": "Q5",
+          "type": "Stock",
+          "size": 421012266,
+          "sha256": "c4e81d0bd936aedb31921203e312441d1e705f1ba56da066ec708f47ded7bf6a",
+          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-linux-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-linux-legacy.zip"
         },
         {
           "name": "rom_q5-macos.zip",
@@ -214,8 +305,9 @@
           "model": "Q5",
           "type": "Stock",
           "size": 467470746,
-          "sha256": "e15f55ab1c7877c5269219ad205effb16dd665de7e58ef35a927cdb6babfdb12",
-          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-macos.zip"
+          "sha256": "ffef0fc27c1f3e667233be924f533398b5004d8bd0c44651171c94a4b533d651",
+          "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-macos.zip",
+          "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-macos.zip"
         }
       ],
       "original_assets": [
