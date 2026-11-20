@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-20T12:07:30Z",
+  "generated_at": "2026-11-20T16:37:42Z",
   "source_repo": "y1-community/q5-stock-rom",
   "source_fallback_repo": "ryan-specter/q5-stock-rom",
   "mirror_repo": "y1-community/q5-stock-rom-mirror",
@@ -105,8 +105,8 @@
           "platform": "linux",
           "model": "Q5",
           "type": "Stock",
-          "size": 706585000,
-          "sha256": "5617b3b3250baa15d91d040e088f2e902f5bceeae400f57539a54e8c708ea9d4",
+          "size": 642835113,
+          "sha256": "df005f81a503de22de57f566355975a2a26b7e0207b377bc9e5dbcd3103073fe",
           "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-linux.zip"
         },
@@ -116,8 +116,8 @@
           "platform": "linux-arm64",
           "model": "Q5",
           "type": "Stock",
-          "size": 531489761,
-          "sha256": "9fdfa0d1ae7bab72933d36a5ce7c7fc118f8f8ac54fa9960da083fa50f903df4",
+          "size": 467739116,
+          "sha256": "09100368a991f9544be06786c69e91de00b470fd12e9f0d069a7b8268fdbee62",
           "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-linux-arm64.zip"
         },
@@ -138,8 +138,8 @@
           "platform": "macos",
           "model": "Q5",
           "type": "Stock",
-          "size": 461199052,
-          "sha256": "a0dc9d94c505b4a91e9a0d79ce07a33ad3433c99db0ebc7da3e9cd9b79a2796e",
+          "size": 503335595,
+          "sha256": "1f1141d9eed47123548604b3ab5318127eb5395a1244f5c6303cf754c37ac89f",
           "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-macos.zip"
         }
@@ -188,8 +188,8 @@
           "platform": "linux",
           "model": "Q5",
           "type": "Stock",
-          "size": 712886074,
-          "sha256": "587ded45e367e45d030608962065e29c77543a382dda227aa0e5b0cb871a05ad",
+          "size": 649136187,
+          "sha256": "7b18a50f07fc55d7bd494ed071c177d9b6504da3fc8adbd3104a6d50d2baa1bc",
           "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-linux.zip"
         },
@@ -199,8 +199,8 @@
           "platform": "linux-arm64",
           "model": "Q5",
           "type": "Stock",
-          "size": 537790835,
-          "sha256": "c50d504460e8b64f4a98b6cd906a9ab0753385ee270043512a1d057e48f9b3bf",
+          "size": 474040190,
+          "sha256": "5e801e692d688d2c887b7ddb72e9df047c9ae6153470df5bdb9ac8a1e832569a",
           "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-linux-arm64.zip"
         },
@@ -221,8 +221,8 @@
           "platform": "macos",
           "model": "Q5",
           "type": "Stock",
-          "size": 467500125,
-          "sha256": "467dcf98c682dacc9c37b5fb5b0f8b570ca5f64311b87c3cbb7053168a31bbb7",
+          "size": 509636668,
+          "sha256": "2fa4ba4697ed694886cbef4f3ab3419f7783b56f4e7c244735217324f07fbcba",
           "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-macos.zip"
         }
@@ -271,8 +271,8 @@
           "platform": "linux",
           "model": "Q5",
           "type": "Stock",
-          "size": 712856695,
-          "sha256": "81c80e5d366bfe85e3dd06c54b2d66d75a85c08bd5efa47bb34116a2fa06b072",
+          "size": 649106808,
+          "sha256": "fb7ddb32f0115876f6d4034e2700f98361e17280eabaa88a93fc51f8c7dd8f30",
           "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-linux.zip"
         },
@@ -282,8 +282,8 @@
           "platform": "linux-arm64",
           "model": "Q5",
           "type": "Stock",
-          "size": 537761456,
-          "sha256": "53aa678400d7624a9c9bdc3aad59feac019ca9247cd5cc71cd7270a2601db53a",
+          "size": 474010811,
+          "sha256": "bb93a94fb1b16279ba0986ca5abddac0e3bbdcbf0a45dd3446851be0174eb3f0",
           "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-linux-arm64.zip"
         },
@@ -304,8 +304,8 @@
           "platform": "macos",
           "model": "Q5",
           "type": "Stock",
-          "size": 467470746,
-          "sha256": "46b4bc5aaacc9ff318a09da494e8e35419108d919bab9a3eeaf2e0cc3469933a",
+          "size": 509607289,
+          "sha256": "1f7a98d5bdfa4438057f73729f96d842bc7cafded910e9ba689019670c46fda9",
           "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-macos.zip"
         }
