@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-22T22:14:20Z",
+  "generated_at": "2026-11-24T17:52:44Z",
   "source_repo": "y1-community/q5-stock-rom",
   "source_fallback_repo": "ryan-specter/q5-stock-rom",
   "mirror_repo": "y1-community/q5-stock-rom-mirror",
@@ -105,8 +105,8 @@
           "platform": "linux",
           "model": "Q5",
           "type": "Stock",
-          "size": 643329529,
-          "sha256": "974f40592162d7b040ed00731fd5ab30af10a882fb9c603cfb9f49dff99fc5a5",
+          "size": 643213168,
+          "sha256": "fe8908847ccb0f665b254008bf19283d9870e55531af0cf2eabfa5d22f79e3f3",
           "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-linux.zip"
         },
@@ -116,8 +116,8 @@
           "platform": "linux-arm64",
           "model": "Q5",
           "type": "Stock",
-          "size": 468236291,
-          "sha256": "ae356da2c87d76f394d3f6d4ba805501e54ac3fa15588f61a52d39e0ca557af3",
+          "size": 468116238,
+          "sha256": "f71f249ee9c2956272a583a6a650543b0fbdda0fa88d3fab71a7721caa823fb7",
           "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2D_Q5D-WV3.28-20250619/rom_q5-linux-arm64.zip"
         },
@@ -188,8 +188,8 @@
           "platform": "linux",
           "model": "Q5",
           "type": "Stock",
-          "size": 649630601,
-          "sha256": "5b6956c5258012756777d4fa127eed9ccd737f76843a714282f1fd44e3aa113a",
+          "size": 649514240,
+          "sha256": "e02b13c0f211c9ea4baf80aa3213cc7ba64d1bb81c0e383e8c27c0e7eb634faf",
           "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-linux.zip"
         },
@@ -199,8 +199,8 @@
           "platform": "linux-arm64",
           "model": "Q5",
           "type": "Stock",
-          "size": 474537363,
-          "sha256": "a35f145bb0716766f4bb5f47ef02adb0248efdf78da64425c9ee16843c9fc821",
+          "size": 474417310,
+          "sha256": "1a6ee1fa0bc05f905a3265373ac85ed1549f5655d8aeba45a9fee7a08ee08e7b",
           "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2-WVGA_TM-WV3.27-20250528/rom_q5-linux-arm64.zip"
         },
@@ -271,8 +271,8 @@
           "platform": "linux",
           "model": "Q5",
           "type": "Stock",
-          "size": 649601222,
-          "sha256": "ce79f5503536bab7768f0de344e4f5ac452514e74e6cbccddf6b2a304c7d9a23",
+          "size": 649484861,
+          "sha256": "707e752f3a835e763cb8e2c13f6a1fdbc76ece0183c2d2f711304f79bcce2771",
           "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-linux.zip"
         },
@@ -282,8 +282,8 @@
           "platform": "linux-arm64",
           "model": "Q5",
           "type": "Stock",
-          "size": 474507984,
-          "sha256": "d31fa61372a0aff247c1a906d872bab6080dea0e4a2a8ce70c70e575d1c8ad19",
+          "size": 474387931,
+          "sha256": "8d61b8f8d3548dc6fb83d17ee3c9390a25e410bff0217e17fdd99c7c507dba58",
           "url": "https://github.com/y1-community/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/q5-stock-rom-mirror/releases/download/MX2-ES_Q5-WV5.02-20250619/rom_q5-linux-arm64.zip"
         },
